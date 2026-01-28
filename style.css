@@ -1,0 +1,99 @@
+/* APP BACKGROUND */
+.stApp {
+    background-color: #f4f8ff !important;
+}
+
+/* SIDEBAR */
+section[data-testid="stSidebar"] {
+    background: #1f3c88 !important;
+}
+
+section[data-testid="stSidebar"] * {
+    color: #ffffff !important;
+    font-weight: 500;
+}
+
+/* MAIN TEXT */
+.main * {
+    color: #000000 !important;
+}
+
+/* TITLE CARD */
+.title-box {
+    background-color: #ffffff;
+    padding: 40px;
+    border-radius: 18px;
+    box-shadow: 0px 8px 25px rgba(0,0,0,0.15);
+}
+
+.title-box h1 {
+    color: #1f3c88;
+    font-weight: 800;
+}
+
+.title-box p {
+    color: #222222;
+    font-size: 16px;
+}
+
+/* BUTTON */
+.stButton > button {
+    background-color: #00a8ff;
+    color: white;
+    font-size: 18px;
+    height: 55px;
+    border-radius: 12px;
+    border: none;
+}
+
+.stButton > button:hover {
+    background-color: #0086cc;
+}
+
+/* SECTIONS */
+.loan-section {
+    background-color: #ffffff;
+    padding: 25px;
+    border-radius: 16px;
+    margin-top: 25px;
+    box-shadow: 0px 6px 18px rgba(0,0,0,0.08);
+}
+
+.loan-section h2 {
+    color: #1f3c88;
+    font-weight: 700;
+}
+
+.loan-section p {
+    color: #222222;
+    font-size: 16px;
+}
+
+/* BADGES */
+.badge-row {
+    margin-top: 10px;
+}
+
+.info-badge {
+    background-color: #1f3c88;
+    color: white;
+    padding: 10px 16px;
+    border-radius: 10px;
+    display: inline-block;
+    font-size: 15px;
+    font-weight: 600;
+    margin-right: 10px;
+    margin-top: 10px;
+}
+
+.meta-badge {
+    background-color: #0ea5e9;
+    font-weight: 700;
+}
+
+/* FOOTER */
+.footer {
+    color: #555555;
+    text-align: center;
+    margin-top: 40px;
+}
